@@ -9,7 +9,6 @@
           <div class="info-part">
             <div class="title">使用nuxt写博客</div>
             <div class="summary">
-
               <span>使用nuxt写博客内容,使用nuxt写博客内容,使用nuxt写博客内容使用nuxt写博客内容,使用nuxt写博客内容,使用nuxt写博客内容使用nuxt写博客内容,使用nuxt写博客内容,使用nuxt写博客内容</span></div>
             <div class="article-bottom">
               <span class="article-bottom-item">2019年8月4日</span>
@@ -24,7 +23,6 @@
           <div class="info-part">
             <div class="title">使用nuxt写博客</div>
             <div class="summary">
-
               <span>使用nuxt写博客内容,使用nuxt写博客内容,使用nuxt写博客内容使用nuxt写博客内容,使用nuxt写博客内容,使用nuxt写博客内容使用nuxt写博客内容,使用nuxt写博客内容,使用nuxt写博客内容</span></div>
             <div class="article-bottom">
               <span class="article-bottom-item">2019年8月4日</span>
@@ -33,6 +31,10 @@
         </el-card>
       </nuxt-link>
     </div>
+    <!-- <div class="right-part">
+
+    </div> -->
+
   </div>
 </template>
 
@@ -61,13 +63,13 @@
     display: inline-block;
     width: 750px;
     float: left;
-    margin: 0 20px;
+    margin: 0 0 0 20px;
   }
 
   .article-item {
     height: 160px;
     margin-bottom: 25px;
-border-radius: 15px;
+    border-radius: 15px;
   }
 
   .article-image {
@@ -109,5 +111,12 @@ border-radius: 15px;
     line-height: 25px;
     color: #303133;
     font-size: 13px;
+  }
+
+  .right-part {
+    display: inline-block;
+    width: 170px;
+    height: 500px;
+    background: #fff;
   }
 </style>

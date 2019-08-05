@@ -22,5 +22,6 @@
   .second-category {
     width: 170px;
     float: left;
+    border-radius: 15px;
   }
 </style>
